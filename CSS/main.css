@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7fafd;
+}
+
+p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #5e6778;
+}
+
+.notification-container,
+.notification-content-private {
+  width: 730px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.divforMargins {
+  padding: 10px 30px 0 30px;
+}
+
+.notification-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 670px;
+  justify-content: space-between;
+}
+
+.notification-title-text {
+  color: #1c202b;
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 11px;
+}
+
+.notification-count {
+  height: 25px;
+  width: 32px;
+  border-radius: 6px;
+  background-color: #0a327b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-number {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.mark-all-read {
+  margin-left: auto;
+}
+
+.mark-all-read-link {
+  color: #5e6778;
+  font-size: 16px;
+}
+
+.mark-all-read-link:hover {
+  cursor: pointer;
+  color: #0a327b;
+}
+
+.notification-badge {
+  display: flex;
+  align-items: center;
+  background-color: #f7fafd;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+.notification-badge-private {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  margin-bottom: 22px;
+}
+
+.notificationForFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 20px;
+  margin-bottom: 12px;
+  width: 670px;
+}
+
+.notification-picture {
+  width: 45px;
+  height: 45px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.profile-picture {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.profile-picture-Nathan {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.profile-picture-ricky {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.notification-content,
+.notification-content-read {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.notification-content {
+  margin-top: 18px;
+}
+
+.notification-content-text {
+  margin-bottom: 3px;
+  margin-top: 0;
+  padding-right: 6px;
+}
+
+.name-in-text-style {
+  font-weight: bold;
+  color: #1c202b;
+  cursor: pointer;
+}
+
+.post-name-in-text-style,
+.group-name-in-text-style {
+  font-weight: bold;
+  color: #5e6778;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.post-name-in-text-style:hover {
+  color: #0a327b;
+}
+
+.group-name-in-text-style-Chess {
+  color: #0a327b;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.notification-time {
+  color: #939cad;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.notification-message {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 5px;
+  border: 1px solid #e0e4e8;
+  /*width: calc(100% - 70px);*/
+  width: 566px;
+  height: 97px;
+  margin-left: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.notification-message:hover {
+  background-color: #dde7ee;
+}
+
+.notification-message-text {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+  color: #5e6778;
+  font-size: 16px;
+}
+
+.notification-badge-read {
+  display: flex;
+  align-items: flex-start;
+  background-color: white;
+  padding: 8px 0;
+  border-radius: 8px;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notification page</title>
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="notification-container">
+      <div class="divforMargins">
+        <div class="notification-header">
+          <div class="notification-title">
+            <p class="notification-title-text">Notifications</p>
+          </div>
+          <div class="notification-count"><p class="count-number">3</p></div>
+          <div class="mark-all-read">
+            <p class="mark-all-read-link">Mark all as read</p>
+          </div>
+        </div>
+        <div class="notification-badge">
+          <div class="notification-picture">
+            <img class="profile-picture" src="Images/Mark Weber.png" />
+          </div>
+          <div class="notification-content">
+            <p class="notification-content-text">
+              <span class="name-in-text-style">Mark Webber</span> reacted to
+              your recent post
+              <span class="post-name-in-text-style"
+                >My first tournament today!</span
+              >
+              <img src="Images/notificationdot.png" />
+            </p>
+            <div class="notification-time">1 m ago</div>
+          </div>
+        </div>
+        <div class="notification-badge">
+          <div class="notification-picture">
+            <img class="profile-picture" src="Images/Angela Gray.png" />
+          </div>
+          <div class="notification-content">
+            <p class="notification-content-text">
+              <span class="name-in-text-style">Angela Gray</span> followed you
+              <img src="Images/notificationdot.png" class="notificationdot" />
+            </p>
+            <div class="notification-time">5 m ago</div>
+          </div>
+        </div>
+        <div class="notification-badge">
+          <div class="notification-picture">
+            <img class="profile-picture" src="Images/Jacob Thompson.png" />
+          </div>
+          <div class="notification-content">
+            <p class="notification-content-text">
+              <span class="name-in-text-style">Jacob Thompson</span> has joined
+              your group
+              <span class="group-name-in-text-style-Chess">Chess club</span>
+              <img src="Images/notificationdot.png" />
+            </p>
+            <div class="notification-time">1 day ago</div>
+          </div>
+        </div>
+        <div class="notification-badge notification-badge-private">
+          <div class="notificationForFlex">
+            <!--prepraviti naziv klase jer je nerazumljiva-->
+            <div class="notification-picture">
+              <img
+                class="profile-picture-ricky"
+                src="Images/Rizky Hasanuddin.png"
+              />
+            </div>
+            <div class="notification-content-private">
+              <p class="notification-content-text">
+                <span class="name-in-text-style">Rizky Hasanuddin</span> sent
+                you a private message
+              </p>
+              <div class="notification-time">5 days ago</div>
+            </div>
+          </div>
+
+          <div class="notification-message">
+            <p class="notification-message-text">
+              Hello, thanks for setting up the Chess Club. I’ve been a member
+              for a few weeks now and I’m already having lots of fun and
+              improving my game.
+            </p>
+          </div>
+        </div>
+        <div class="notification-badge-read">
+          <div class="notification-picture">
+            <img class="profile-picture" src="Images/Kimberly Smith.png" />
+          </div>
+          <div class="notification-content-read">
+            <p class="notification-content-text">
+              <span class="name-in-text-style">Kimberly Smith</span> commented
+              on your picture
+            </p>
+            <div class="notification-time">1 week ago</div>
+          </div>
+        </div>
+        <div class="notification-badge-read">
+          <div class="notification-picture">
+            <img
+              class="profile-picture-Nathan"
+              src="Images/Nathan Peterson.png"
+            />
+          </div>
+          <div class="notification-content-read">
+            <p class="notification-content-text">
+              <span class="name-in-text-style">Nathan Peterson</span> reacted to
+              your recent post
+              <span class="group-name-in-text-style"
+                >5 end-game strategies to increase your win rate</span
+              >
+            </p>
+            <div class="notification-time">2 weeks ago</div>
+          </div>
+        </div>
+        <div class="notification-badge-read">
+          <div class="notification-picture">
+            <img class="profile-picture" src="Images/Anna Kim.png" />
+          </div>
+          <div class="notification-content-read">
+            <p class="notification-content-text">
+              <span class="name-in-text-style">Anna Kim </span>left the group
+              <span class="group-name-in-text-style-Chess">Chess Club</span>
+            </p>
+            <div class="notification-time">2 weeks ago</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
