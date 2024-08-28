@@ -67,19 +67,21 @@ p {
 .mark-all-read-link {
   color: #5e6778;
   font-size: 16px;
-}
-
-.mark-all-read-link:hover {
   cursor: pointer;
-  color: #0a327b;
 }
 
 .notification-badge {
   display: flex;
-  align-items: center;
-  background-color: #f7fafd;
+  align-items: flex-start;
+
+  background-color: white;
   margin-bottom: 8px;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.notification-badge.Active {
+  background-color: #f7fafd;
 }
 
 .notification-badge-private {
@@ -88,9 +90,16 @@ p {
   align-items: flex-start;
   background-color: white;
   margin-bottom: 22px;
+  cursor: pointer;
 }
 
-.notificationForFlex {
+.notification-badge-private.Active,
+.notification-content-private.Active,
+.notification-message.Active {
+  background-color: #f7fafd;
+}
+
+.divForFlex {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -124,15 +133,10 @@ p {
   cursor: pointer;
 }
 
-.notification-content,
-.notification-content-read {
+.notification-content {
   display: flex;
   flex-direction: column;
   margin-bottom: 25px;
-}
-
-.notification-content {
-  margin-top: 18px;
 }
 
 .notification-content-text {
@@ -175,7 +179,6 @@ p {
   border-radius: 8px;
   margin-top: 5px;
   border: 1px solid #e0e4e8;
-  /*width: calc(100% - 70px);*/
   width: 566px;
   height: 97px;
   margin-left: 84px;
@@ -184,10 +187,6 @@ p {
   justify-content: center;
   cursor: pointer;
   transition: background-color 0.3s ease;
-}
-
-.notification-message:hover {
-  background-color: #dde7ee;
 }
 
 .notification-message-text {
@@ -204,4 +203,6 @@ p {
   background-color: white;
   padding: 8px 0;
   border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 8px;
 }

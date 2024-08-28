@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Notification page</title>
-    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" href="CSS/notificationPage.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
@@ -23,7 +23,7 @@
           <div class="notification-title">
             <p class="notification-title-text">Notifications</p>
           </div>
-          <div class="notification-count"><p class="count-number">3</p></div>
+          <div class="notification-count"><p class="count-number">0</p></div>
           <div class="mark-all-read">
             <p class="mark-all-read-link">Mark all as read</p>
           </div>
@@ -39,7 +39,8 @@
               <span class="post-name-in-text-style"
                 >My first tournament today!</span
               >
-              <img src="Images/notificationdot.png" />
+
+              <input type="checkbox" class="checkBox" />
             </p>
             <div class="notification-time">1 m ago</div>
           </div>
@@ -51,7 +52,8 @@
           <div class="notification-content">
             <p class="notification-content-text">
               <span class="name-in-text-style">Angela Gray</span> followed you
-              <img src="Images/notificationdot.png" class="notificationdot" />
+
+              <input type="checkbox" class="checkBox" />
             </p>
             <div class="notification-time">5 m ago</div>
           </div>
@@ -65,14 +67,14 @@
               <span class="name-in-text-style">Jacob Thompson</span> has joined
               your group
               <span class="group-name-in-text-style-Chess">Chess club</span>
-              <img src="Images/notificationdot.png" />
+
+              <input type="checkbox" class="checkBox" />
             </p>
             <div class="notification-time">1 day ago</div>
           </div>
         </div>
-        <div class="notification-badge notification-badge-private">
-          <div class="notificationForFlex">
-            <!--prepraviti naziv klase jer je nerazumljiva-->
+        <div class="notification-badge-private">
+          <div class="divForFlex">
             <div class="notification-picture">
               <img
                 class="profile-picture-ricky"
@@ -83,6 +85,7 @@
               <p class="notification-content-text">
                 <span class="name-in-text-style">Rizky Hasanuddin</span> sent
                 you a private message
+                <input type="checkbox" class="checkBox" />
               </p>
               <div class="notification-time">5 days ago</div>
             </div>
@@ -96,50 +99,53 @@
             </p>
           </div>
         </div>
-        <div class="notification-badge-read">
+        <div class="notification-badge">
           <div class="notification-picture">
             <img class="profile-picture" src="Images/Kimberly Smith.png" />
           </div>
-          <div class="notification-content-read">
+          <div class="notification-content">
             <p class="notification-content-text">
               <span class="name-in-text-style">Kimberly Smith</span> commented
               on your picture
+              <input type="checkbox" class="checkBox" />
             </p>
             <div class="notification-time">1 week ago</div>
           </div>
         </div>
-        <div class="notification-badge-read">
+        <div class="notification-badge">
           <div class="notification-picture">
             <img
               class="profile-picture-Nathan"
               src="Images/Nathan Peterson.png"
             />
           </div>
-          <div class="notification-content-read">
+          <div class="notification-content">
             <p class="notification-content-text">
               <span class="name-in-text-style">Nathan Peterson</span> reacted to
               your recent post
               <span class="group-name-in-text-style"
                 >5 end-game strategies to increase your win rate</span
               >
+              <input type="checkbox" class="checkBox" />
             </p>
             <div class="notification-time">2 weeks ago</div>
           </div>
         </div>
-        <div class="notification-badge-read">
+        <div class="notification-badge">
           <div class="notification-picture">
             <img class="profile-picture" src="Images/Anna Kim.png" />
           </div>
-          <div class="notification-content-read">
+          <div class="notification-content">
             <p class="notification-content-text">
               <span class="name-in-text-style">Anna Kim </span>left the group
               <span class="group-name-in-text-style-Chess">Chess Club</span>
+              <input type="checkbox" class="checkBox" />
             </p>
             <div class="notification-time">2 weeks ago</div>
           </div>
         </div>
       </div>
     </main>
-    <script src="JS/main.js"></script>
+    <script src="JS/notificationPage.js"></script>
   </body>
 </html>
